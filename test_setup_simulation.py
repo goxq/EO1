@@ -76,7 +76,7 @@ if pyproject.exists():
         
     checks = [
         ('build-system', 'Build system configuration'),
-        ('project]', 'Project metadata'),
+        ('[project]', 'Project metadata'),
         ('dependencies', 'Dependencies list'),
         ('"torch"', 'Flexible torch dependency'),
         ('transformers', 'Transformers dependency'),
@@ -106,6 +106,7 @@ if experiments_path.exists():
         '6_agibot',
         '7_franka',
         '8_vllmeval',
+        '9_pretraining',
     ]
     
     for exp_dir in experiment_dirs:

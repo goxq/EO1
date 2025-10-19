@@ -135,14 +135,14 @@ python test_setup_simulation.py
 **Before / 之前:**
 - Torch was pinned to a specific version
 - Users had to match exact CUDA/PyTorch versions
-- Torch 被固定到特定版本
+- PyTorch 被固定到特定版本
 - 用户必须匹配确切的 CUDA/PyTorch 版本
 
 **After / 之后:**
 - Torch dependency is now flexible: `"torch"` (no version constraint)
 - Users can install any compatible PyTorch version
 - Supports CPU, CUDA, and ROCm installations
-- Torch 依赖现在是灵活的：`"torch"`（无版本限制）
+- PyTorch 依赖现在是灵活的：`"torch"`（无版本限制）
 - 用户可以安装任何兼容的 PyTorch 版本
 - 支持 CPU、CUDA 和 ROCm 安装
 
@@ -151,8 +151,8 @@ python test_setup_simulation.py
 - ✅ CPU-only installations are straightforward
 - ✅ AMD GPU (ROCm) support
 - ✅ No version conflicts with existing installations
-- ✅ 适用于任何 CUDA 版本（11.8, 12.1, 12.4 等）
-- ✅ CPU-only 安装简单直接
+- ✅ 适用于任何 CUDA 版本（11.8、12.1、12.4 等）
+- ✅ 仅 CPU 安装简单直接
 - ✅ 支持 AMD GPU（ROCm）
 - ✅ 与现有安装没有版本冲突
 
