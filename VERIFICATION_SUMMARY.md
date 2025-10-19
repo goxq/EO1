@@ -27,14 +27,15 @@ Translation: Verify in Codespaces whether the environment can be properly set up
 
 ### 1. Flexible Torch Dependency / 灵活的 Torch 依赖
 
-**Changed from / 从以下改为:**
+**Changed to / 改为:**
 ```toml
-# Before: Fixed version (hypothetical)
-torch==2.1.0+cu118
-
-# After: Flexible version (actual)
+# Current: Flexible version (allows any compatible version)
 "torch"
 ```
+
+**Before / 之前:**
+Torch dependency likely had version constraints that limited installation flexibility.
+之前的 Torch 依赖可能有版本限制，限制了安装灵活性。
 
 **Impact / 影响:**
 - ✅ Users can install any PyTorch version compatible with their system
